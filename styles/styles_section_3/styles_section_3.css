@@ -1,6 +1,6 @@
 .main-content__about-HP {
   background-color: yellow;
-  padding: 130px 384px 80px 320px;
+  padding: 42px 384px 80px 320px;
 }
 
 .main-content__about-HP-article {
@@ -16,7 +16,7 @@
   font-size: 18px;
   line-height: 34px;
   letter-spacing: 0%;
-  min-width: 624px;
+  max-width: 624px;
 }
 
 .main-content__about-HP-header {

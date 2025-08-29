@@ -15,8 +15,43 @@
 .header__links-container-and-logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 20px;
+}
+
+.header__logo-container {
+  padding-left: 315px;
+}
+
+.header__social-media-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  min-width: 379px;
+  /* max-width: 379px; */
+  padding-top: 22px;
+  margin-right: 320px;
+}
+
+.header__vk-link-container {
+  padding-left: 38px;
+}
+
+.header__facebook-link-container {
+  padding-left: 36px;
+}
+
+.header__twitter-link-container {
+  padding-left: 34px;
+}
+
+.header__twitch-link-container {
+  padding-left: 32px;
+}
+
+.header__instagram-link-container {
+  padding-left: 38px;
 }
 
 .header__know-more-about {

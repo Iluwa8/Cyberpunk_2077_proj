@@ -1,5 +1,5 @@
 .footer {
-  padding: 13px 321px 13px 320px;
+  padding: 0 321px 0 320px;
 }
 
 .footer__logos-and-menu-container {
@@ -16,7 +16,7 @@
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  padding-top: 40px;
+  padding-top: 25px;
   text-wrap: nowrap;
 }
 
