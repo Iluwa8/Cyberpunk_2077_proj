@@ -1,0 +1,130 @@
+.main-content__action {
+  width: 1920px;
+  padding: 7px 320px 70px 320px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 70px;
+  color: white;
+}
+
+.main-content__about-action-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content__action-header {
+  font-family: 'Archangelsk', sans-serif;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 60px;
+  padding-left: 32px;
+}
+
+.main-content__action-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  width: 952px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.main-content__registration-form-and-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content__registration-form {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  margin-right: 32px;
+  margin-top: 88px;
+  gap: 35px;
+}
+
+.input-form {
+  appearance: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 15px;
+}
+
+.input-form::placeholder {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+
+.main-content__action-pictures-devices {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-top: 50px;
+}
+
+.main-content__action-xbox-picture {
+  padding-left: 164px;
+}
+
+.registration-form__scrin-loader-container {
+  text-align: center;
+  border: dashed 1px white;
+  width: 460px;
+  max-height: 120px;
+  padding: 39px 137px;
+}
+
+.registration-form-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.registration-form__span {
+  margin-top: 7px;
+  text-decoration-line: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.registration-form__screen-loader {
+  visibility: hidden;
+}
+
+.submit-button {
+  width: 192px;
+  height: 59px;
+  background-color: yellow;
+}
+
+.registration-form__checkbox-label {
+  gap: 0;
+  padding: 0;
+  margin: 0;
+}

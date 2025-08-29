@@ -1,0 +1,70 @@
+.main-content__about-HP {
+  background-color: yellow;
+  padding: 130px 384px 80px 320px;
+}
+
+.main-content__about-HP-article {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.main-content__about-hp-article-text {
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  min-width: 624px;
+}
+
+.main-content__about-HP-header {
+  font-family: 'Archangelsk', sans-serif;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-wrap: balance;
+}
+
+.main-content__about-HP-main-features {
+  padding-left: 30px;
+  text-justify: center;
+  margin-top: 25px;
+}
+
+.about-HP-main-featurs__colors {
+  list-style-image: url(../../images/images_for_section_3/color_lens.svg);
+}
+
+.about-HP-main-features__image {
+  list-style-image: url(../../images/images_for_section_3/auto_awesome.png);
+}
+
+.about-HP-main-features__gameplay {
+  list-style-image: url(../../images/images_for_section_3/auto_awesome_motion.svg);
+}
+
+.button-about {
+  width: 194px;
+  height: 59px;
+  background-color: black;
+  color: yellow;
+  margin-top: 30px;
+}
+
+.main-content__about-HP-images {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-bottom: 10px;
+}
+
+.main-content__about-HP-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}

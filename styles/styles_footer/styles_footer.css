@@ -1,0 +1,43 @@
+.footer {
+  padding: 13px 321px 13px 320px;
+}
+
+.footer__logos-and-menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__navigation-links {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 40px;
+  text-wrap: nowrap;
+}
+
+.footer__logos {
+  display: flex;
+  margin-right: 390.95px;
+  gap: 32px;
+}
+
+.footer__copyrights {
+  background-color: black;
+  color: white;
+  min-height: 40px;
+}
+
+.footer__copyrights-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 13px;
+}
